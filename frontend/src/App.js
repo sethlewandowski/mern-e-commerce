@@ -19,7 +19,7 @@ const App = () => {
       <Header />
       <Container>
         <main className="py-3">
-          <Route path="/orders/:id" component={OrderScreen} />
+          <Route path="/order/:id" component={OrderScreen} />
           <Route path="/placeorder" component={PlaceOrderScreen} />
           <Route path="/shipping" component={ShippingScreen} />
           <Route path="/payment" component={PaymentScreen} />
